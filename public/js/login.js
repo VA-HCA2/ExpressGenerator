@@ -35,7 +35,7 @@ $(document).ready(function () {
           $('#inputPassword').val('');
           $('#inputPassword').attr("disabled", true);
     
-          $('#lock').attr('src', 'img/unlock.png');
+          $('#lock').attr('src', '/img/unlock.png');
     
           $('#submitBtn').hide();
           $('#logoutBtn').show();

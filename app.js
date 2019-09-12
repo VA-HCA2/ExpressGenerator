@@ -36,6 +36,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
+// Just one route for users we can use that to login and register a user in the route page
 app.use('/users', usersRouter);
 app.use('/leagues', leaguesRouter);
 

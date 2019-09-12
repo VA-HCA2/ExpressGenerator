@@ -11,6 +11,7 @@ router.get('/data', (request, response,next) => {
         response.end(fs.readFileSync('./data/leagues.json'))
     }
     catch(err){
+        // if there us nothing send an empty array 
         response.end('[]');
     }
 });
