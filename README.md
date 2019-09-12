@@ -1,4 +1,3 @@
-Express Generator
 The purpose of this page is to generate an Express App using Express Generator. 
 
 Install Module
